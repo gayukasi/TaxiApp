@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="areas">
+        <item> Railway station</item>
+        <item> Airport</item>
+        <item> Ukkadam</item>
+        <item> Fun Mall</item>
+        <item> SITRA</item>
+        <item> Brookefields</item>
+        <item> " Coimbatore " </item>
+        <item> " Achipatti " </item>
+        <item> " Alanthurai " </item>
+        <item> " Amaravathinagar " </item>
+        <item> " Anaimalai " </item>
+        <item> " Anickadavu " </item>
+        <item> " Appanaickenpatti " </item>
+        <item> " Arasur " </item>
+        <item> " Ashokapuram " </item>
+        <item> " Avarampalayam " </item>
+        <item> " Chettipalayam " </item>
+        <item> " Chinnakuyili " </item>
+        <item> " Chinnavedampatti " </item>
+        <item> " Chinniyampalayam " </item>
+        <item> " Dhali " </item>
+        <item> " Dhaliyur " </item>
+        <item> " Ettimadai " </item>
+        <item> " Ganapathy " </item>
+        <item> " Gandhipuram " </item>
+        <item> " Idikarai " </item>
+        <item> " Irugur " </item>
+        <item> " Jothipuram " </item>
+        <item> " Kalapatti " </item>
+        <item> " Kanakkampalayam " </item>
+        <item> " Kangeyampalayam " </item>
+        <item> " Kaniyur " </item>
+        <item> " Kannampalayam " </item>
+        <item> " Karamadai " </item>
+        <item> " Karumathampatti " </item>
+        <item> " Kavundampalayam " </item>
+        <item> " Komaralingam " </item>
+        <item> " Kottur " </item>
+        <item> " Kovaipudur " </item>
+        <item> " Kumarapalayam " </item>
+        <item> " Kurichi " </item>
+        <item> " Madathukulam " </item>
+        <item> " Madukkarai " </item>
+        <item> " Mahadevapuram " </item>
+        <item> " Mangalam " </item>
+        <item> " Maniyakarampalayam " </item>
+        <item> " Maruthamalai " </item>
+        <item> " Mettupalayam " </item>
+        <item> " Mopperipalayam " </item>
+        <item> " Muruganpalayam " </item>
+        <item> " NGGO Colony " </item>
+        <item> " Nallurvayal " </item>
+        <item> " Nanjundapuram " </item>
+        <item> " Narasimhanaickenpalayam " </item>
+        <item> " NathamPalayam " </item>
+        <item> " Neelambur " </item>
+        <item> " Neelikonampalayam " </item>
+        <item> " Negamam " </item>
+        <item> " Ondipudur " </item>
+        <item> " Othakalmandapam " </item>
+        <item> " Pallapalayam " </item>
+        <item> " Pappanaickenpudur " </item>
+        <item> " Peelamedu " </item>
+        <item> " Periya-Negamam " </item>
+        <item> " Periyanaickenpalayam " </item>
+        <item> " Perur " </item>
+        <item> " Podanur " </item>
+        <item> " Pooluvapatti " </item>
+        <item> " Press Colony" </item>
+
+        <item> " R.S.Puram " </item>
+
+        <item> " Ramanathapuram " </item>
+        <item> " Ramnagar " </item>
+        <item> " Rasipalayam " </item>
+        <item> " Rathinapuri " </item>
+        <item> " Saibaba Colony" </item>
+
+        <item> " Samalapuram " </item>
+        <item> " Samathur " </item>
+        <item> " Sankaramanallur " </item>
+        <item> " Saravanampatti " </item>
+        <item> " Sarkar " </item>
+        <item> " Samakulam " </item>
+        <item> " Semmipalayam " </item>
+        <item> " Sidhapudur " </item>
+        <item> " Singanallur " </item>
+        <item> " Sirumugai " </item>
+        <item> " Somayanur " </item>
+        <item> " Sowripalayam " </item>
+        <item> " Subramaniapuram " </item>
+        <item> " Suleeswaranpatti " </item>
+        <item> " Sulur " </item>
+        <item> " Sundakapalayam " </item>
+        <item> " Sundarapuram " </item>
+        <item> " Tatabad " </item>
+        <item> " Telungupalayam " </item>
+        <item> " Thadagam " </item>
+        <item> " Thekkampatti " </item>
+        <item> " Thenkarai " </item>
+        <item> " Thirumalayampalayam " </item>
+        <item> " Thirumuruganpoondi " </item>
+        <item> " Thondamuthur " </item>
+        <item> " Thottipalayam " </item>
+        <item> " Thudiyalur " </item>
+        <item> " Uppilipalayam " </item>
+        <item> " Vadachittoor " </item>
+        <item> " Vadamadurai " </item>
+        <item> " Vadambacheri " </item>
+        <item> " Vadavalli " </item>
+        <item> " Vaideki " </item>
+        <item> " Falls " </item>
+        <item> " Vaiyampalayam " </item>
+        <item> " Veerakeralam " </item>
+        <item> " Veerapandi " </item>
+        <item> " Velampalayam " </item>
+        <item> " Velandipalayam " </item>
+        <item> " Vellakinar " </item>
+        <item> " Vellalore " </item>
+        <item> " Velliangadu " </item>
+        <item> " Vilankurichi " </item>
+        <item> " Walayar " </item>
+        <item> " Zamin " </item>
+        <item> " Uthukuli " </item>
+
+
+
+
+    </string-array>
+</resources>
