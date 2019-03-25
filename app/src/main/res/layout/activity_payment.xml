@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+
+    tools:context=".PaymentActivity">
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_margin="15dp"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE PAYMENT METHOD" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CASH" />
+
+        <RadioButton
+            android:id="@+id/RadioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEBIT/CREDIT CARD" />
+
+        <EditText
+            android:id="@+id/cardnum"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/cardbtn"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="verify" />
+
+        <RadioButton
+            android:id="@+id/RadioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAYTM" />
+
+        <RadioButton
+            android:id="@+id/RadioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPI INTERFACE" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp">
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="confirm booking"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -1,14 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@android:color/black"
 
-    <ListView
-        android:id="@+id/simpleListView"
+    android:orientation="vertical">
+<!--<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</ScrollView>-->
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Car Type"
+        android:textSize="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"/>
+
+    <ScrollView android:layout_marginTop="30dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:divider="@android:color/black"
-        android:dividerHeight="1dp"
-        android:footerDividersEnabled="false" />
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/miniimg"
+            android:layout_width="340dp"
+            android:layout_height="255dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/mini_cars"
+            android:background="@android:color/transparent"
+            android:layout_margin="20dp"
+            />
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                android:id="@+id/minitxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MINI CAR (3-4 Seats)" />
+
+            <TextView
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. 12/- per Km."
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageButton
+                android:id="@+id/microimg"
+                android:layout_width="340dp"
+                android:layout_height="255dp"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/micro_car"
+                android:background="@android:color/transparent"
+                android:layout_margin="20dp"
+                />
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                android:id="@+id/microtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MICRO CAR (4-5 Seats) " />
+
+            <TextView
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. 18/- per Km."
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageButton
+                android:id="@+id/sedanimg"
+                android:layout_width="340dp"
+                android:layout_height="255dp"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/sedan_car"
+                android:background="@android:color/transparent"
+                android:layout_margin="20dp"
+                />
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                android:id="@+id/sedantxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEDAN CAR (6-8 Seats) " />
+
+            <TextView
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs. 25/- per Km."
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"/>
+            <Button
+                android:id="@+id/next1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"/>
+        </LinearLayout>
+
+
+    </ScrollView>
 </LinearLayout>
